@@ -48,29 +48,18 @@ LANGCHAIN_API_KEY=your_langsmith_key
 
 These give the highest learning ROI. Complete them in order.
 
-1. **Stateful Chatbot with Memory** (`02-LangChain-Basics/chatbots-with-memory.ipynb`)  
-   Learn message history, session IDs, prompt templates, and trimming.
-
-2. **LangGraph Tool-Calling Agent** (`04-Agents-and-LangGraph/langgraph-chatbot-with-tools.ipynb`)  
-   Build a ReAct-style agent with Wikipedia + Arxiv tools, conditional routing, and streaming.
-
-3. **Conversational RAG over Documents**  
-   Implement document loading → chunking → embedding → retrieval → generation with chat history.
-
-4. **LangGraph + Vector Store Routing**  
-   Route queries between a vector database and external search.
-
-5. **Chat with SQL**  
-   Natural language interface over a database.
-
-6. **CrewAI Multi-Agent System**  
-   Define agents, tasks, and tools that collaborate.
+1. **Stateful Chatbot with Memory** (`02-LangChain-Basics/chatbots-with-memory.ipynb`)
+2. **LangGraph Tool-Calling Agent** (`04-Agents-and-LangGraph/langgraph-chatbot-with-tools.ipynb`)
+3. **Conversational RAG over Documents**
+4. **LangGraph + Vector Store Routing**
+5. **Chat with SQL**
+6. **CrewAI Multi-Agent System**
 
 ---
 
 ## Key Concepts You Will Master
 
-- **LCEL** (LangChain Expression Language) for composable chains
+- LCEL for composable chains
 - Message history and session management
 - Embeddings, vector stores, and retrieval
 - Hybrid search (dense + sparse)
@@ -78,6 +67,14 @@ These give the highest learning ROI. Complete them in order.
 - LangGraph state graphs, nodes, edges, and conditional routing
 - Agent patterns (ReAct, routing, multi-agent)
 - Prompt engineering for reliability
+
+---
+
+## Related Deep Notes
+
+For concise, interview-focused concept notes (embeddings, RAG, MCP, LangGraph, CrewAI, Deep Agents, advanced RAG patterns, production FDE examples):
+
+**[makan_m/learning-concepts](https://github.com/yash9614/makan_m/tree/main/learning-concepts)**
 
 ---
 
