@@ -13,6 +13,15 @@ Move from simple chains to **stateful agents** that can use tools and make decis
 - Checkpointers (InMemorySaver, SqliteSaver)
 - Commands (`update` / `goto` / `resume`)
 - Send / map-reduce, dynamic nodes
+- Workflow patterns: prompt chaining, parallelization, routing, orchestrator-worker, evaluator-optimizer
+
+## Complementary Tutorial Resources
+
+- **Progressive 10-notebook series**: [sourangshupal/langraph-tutorials](https://github.com/sourangshupal/langraph-tutorials)  
+  01 intro → 02 conditional routing → 03 tools (OpenAI) → 04 persistence/memory → 05 HITL + streaming → 06 parallel + subgraphs → 07 production patterns → 08 Command / functional API / long-term memory → 09 multi-agent → 10 testing & observability
+
+- **Hands-on notebooks + diagrams + interactive deck**: [d-hackmt/langgraph-life](https://github.com/d-hackmt/langgraph-life)  
+  Basics, components (streaming, tools, ReAct, memory), debugging (Studio), workflows, HITL, agentic/corrective RAG, multimodal
 
 ## Telusko Course Mapping
 - `LangChain Tools and Agents`, `Tool Calling (Part-2)`
@@ -29,5 +38,6 @@ Move from simple chains to **stateful agents** that can use tools and make decis
 - Stream intermediate steps.
 - Add a new tool and update the graph.
 - Handle parallel writes with a reducer and pause for human approval.
+- Implement at least one classic workflow pattern (e.g. orchestrator-worker).
 
 **Next:** Advanced projects. For deeper agentic patterns see the companion [agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path).
