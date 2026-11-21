@@ -29,16 +29,27 @@ Complete these projects in order. Each one builds skills needed for the next.
 
 ---
 
-## 3. Document Q&A / RAG Pipeline
-Build or run a full RAG system:
-1. Load documents (PDF or web)
-2. Split into chunks
-3. Embed (Hugging Face or OpenAI)
-4. Store in a vector DB (Chroma or similar)
-5. Retrieve relevant chunks
-6. Generate answer with the retrieved context
+## 3. Document Q&A / RAG Pipeline (Production Path)
+Build a full RAG system and then upgrade it:
 
-**Challenge:** Add conversation memory so follow-up questions work.
+**Basic:**
+1. Load documents (PDF or web)
+2. Split into chunks with overlap
+3. Embed and store in a vector DB
+4. Retrieve relevant chunks
+5. Generate answer with the retrieved context
+
+**Production upgrades (do these):**
+- Deterministic chunk IDs + rich metadata
+- Hybrid search (dense + BM25) + Reciprocal Rank Fusion
+- Cross-encoder reranking
+- Query rewriting
+- Citations in the answer
+- Small evaluation set (Hit@K + LLM-as-judge for groundedness)
+
+See `03-RAG-Systems/PRODUCTION-RAG-GUIDE.md` for the exact patterns.
+
+**Challenge:** Add conversation memory so follow-up questions work, and measure the improvement from hybrid + reranking.
 
 ---
 
@@ -70,3 +81,4 @@ Define multiple specialized agents, assign tasks, and let them collaborate using
 - Modify something (change the model, add a tool, change the prompt).
 - Write a short note for yourself explaining the data flow.
 - Use LangSmith for tracing once you have a key.
+- For RAG, always measure before/after when you add hybrid search or reranking.
