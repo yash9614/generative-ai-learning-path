@@ -8,6 +8,12 @@ This repository rearranges high-value course materials into a clear learning jou
 
 ---
 
+## 🚀 Unified Learning Map (Start Here for Cross-Repo Compass)
+
+**[UNIFIED-LEARNING-MAP.md](UNIFIED-LEARNING-MAP.md)** — Single reference synthesizing high-signal resources from sunnysavita10 (Full-Stack Bootcamp + Generative-AI-Indepth), CampusX (langgraph-tutorials, chatbot-in-langgraph, langchain-models), and complementary materials. Includes direct links to exact notebooks and folders for every major task and project.
+
+---
+
 ## How to Use This Repo
 
 1. Follow the numbered folders in order.
@@ -15,6 +21,7 @@ This repository rearranges high-value course materials into a clear learning jou
 3. Set up a virtual environment and install requirements as you go. Prefer `uv` (as used in the Telusko course).
 4. Use environment variables (`.env`) for all API keys — never hardcode them.
 5. Complete the **Must-Do Projects** listed at the bottom and in `MUST-DO-PROJECTS.md`.
+6. Use the [Unified Learning Map](UNIFIED-LEARNING-MAP.md) as your external navigation compass.
 
 ### Recommended Setup
 ```bash
@@ -93,6 +100,7 @@ These give the highest learning ROI. Complete them in order.
 - Strong external RAG: [sunnysavita10/Generative-AI-Indepth-Basic-to-Advance](https://github.com/sunnysavita10/Generative-AI-Indepth-Basic-to-Advance)
 - Agentic course structure: [entbappy/Complete-Agentic-AI-Course](https://github.com/entbappy/Complete-Agentic-AI-Course)
 - Broad GenAI guide: [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+- **[UNIFIED-LEARNING-MAP.md](UNIFIED-LEARNING-MAP.md)** — cross-repo compass with direct links
 
 ---
 
