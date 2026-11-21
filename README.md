@@ -4,7 +4,7 @@
 
 This repository rearranges high-value course materials into a clear learning journey. The original dump is left untouched. Focus on understanding concepts, running the notebooks, and completing the highlighted must-do projects.
 
-**Telusko course coverage** (through Advance LangGraph Nov 2026) is reflected in the stage notes below and in the companion [agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path) (see its `reference/TELUSKO-SESSION-MAP.md`).
+**Telusko course coverage** (through Advance LangGraph Nov 2026) is reflected in the stage notes below and in the companion [agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path) (see its `reference/TELUSKO-SESSION-MAP.md` and `reference/EXTERNAL-SCANNED-RESOURCES.md`).
 
 ---
 
@@ -73,7 +73,7 @@ These give the highest learning ROI. Complete them in order.
 - Hybrid search (dense + sparse) + Reciprocal Rank Fusion
 - Cross-encoder reranking
 - Query transformation and citations
-- RAG evaluation (Hit@K + LLM-as-judge)
+- RAG evaluation (Hit@K + LLM-as-judge / RAGAS)
 - Tool calling and function calling
 - LangGraph state graphs, nodes, edges, reducers, subgraphs, Commands
 - Human-in-the-loop interrupts and checkpointers
@@ -82,12 +82,17 @@ These give the highest learning ROI. Complete them in order.
 
 ---
 
-## Related Deep Notes
-
-For concise, interview-focused concept notes and the full Telusko session map:
+## Related Deep Notes & External Resources
 
 - **[makan_m/learning-concepts](https://github.com/yash9614/makan_m/tree/main/learning-concepts)**
-- **[agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path)** (especially `reference/TELUSKO-SESSION-MAP.md`)
+- **[agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path)** — especially:
+  - `reference/TELUSKO-SESSION-MAP.md`
+  - `reference/EXTERNAL-SCANNED-RESOURCES.md` (sunnysavita10, entbappy, awesome-generative-ai-guide)
+  - `reference/EXTERNAL-RAG-RESOURCES.md`
+  - `reference/EXTERNAL-LANGGRAPH-TUTORIALS.md`
+- Strong external RAG: [sunnysavita10/Generative-AI-Indepth-Basic-to-Advance](https://github.com/sunnysavita10/Generative-AI-Indepth-Basic-to-Advance)
+- Agentic course structure: [entbappy/Complete-Agentic-AI-Course](https://github.com/entbappy/Complete-Agentic-AI-Course)
+- Broad GenAI guide: [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
 
 ---
 
