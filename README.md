@@ -92,6 +92,7 @@ These give the highest learning ROI. Complete them in order.
 ## Related Deep Notes & External Resources
 
 - **[makan_m/learning-concepts](https://github.com/yash9614/makan_m/tree/main/learning-concepts)**
+  - Especially [23-ai-vocabulary-beginner.md](https://github.com/yash9614/makan_m/blob/main/learning-concepts/23-ai-vocabulary-beginner.md) (21 core terms from mayank953 crash course)
 - **[agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path)** — especially:
   - `reference/TELUSKO-SESSION-MAP.md`
   - `reference/EXTERNAL-SCANNED-RESOURCES.md` (sunnysavita10, entbappy, awesome-generative-ai-guide)
@@ -100,6 +101,7 @@ These give the highest learning ROI. Complete them in order.
 - Strong external RAG: [sunnysavita10/Generative-AI-Indepth-Basic-to-Advance](https://github.com/sunnysavita10/Generative-AI-Indepth-Basic-to-Advance)
 - Agentic course structure: [entbappy/Complete-Agentic-AI-Course](https://github.com/entbappy/Complete-Agentic-AI-Course)
 - Broad GenAI guide: [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+- Beginner AI vocabulary + Python practice: [mayank953/python-ai-crash-course](https://github.com/mayank953/python-ai-crash-course)
 - **[UNIFIED-LEARNING-MAP.md](UNIFIED-LEARNING-MAP.md)** — cross-repo compass with direct links
 
 ---
