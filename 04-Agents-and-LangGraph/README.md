@@ -14,20 +14,21 @@ Move from simple chains to **stateful agents** that can use tools and make decis
 - Commands (`update` / `goto` / `resume`)
 - Send / map-reduce, dynamic nodes
 - Workflow patterns: prompt chaining, parallelization, routing, orchestrator-worker, evaluator-optimizer
+- Multi-agent: supervisor, handoffs, deep agents
+- Streaming modes (values, debug, checkpoint, tasks, messages)
 
 ## Complementary Tutorial Resources
 
-- **Progressive 10-notebook series**: [sourangshupal/langraph-tutorials](https://github.com/sourangshupal/langraph-tutorials)  
-  01 intro → 02 conditional routing → 03 tools (OpenAI) → 04 persistence/memory → 05 HITL + streaming → 06 parallel + subgraphs → 07 production patterns → 08 Command / functional API / long-term memory → 09 multi-agent → 10 testing & observability
-
-- **Hands-on notebooks + diagrams + interactive deck**: [d-hackmt/langgraph-life](https://github.com/d-hackmt/langgraph-life)  
-  Basics, components (streaming, tools, ReAct, memory), debugging (Studio), workflows, HITL, agentic/corrective RAG, multimodal
+- **Progressive 10-notebook series**: [sourangshupal/langraph-tutorials](https://github.com/sourangshupal/langraph-tutorials)
+- **Hands-on notebooks + diagrams**: [d-hackmt/langgraph-life](https://github.com/d-hackmt/langgraph-life)
 
 ## Telusko Course Mapping
 - `LangChain Tools and Agents`, `Tool Calling (Part-2)`
 - `Getting Started with LangGraph 17-10-2026`
 - `Types of Graphs` series (18-10 through Part 4)
-- `Advance LangGraph 14-11-2026` and `(part - 2) 15-11-2026` (including the `agents` project)
+- `Advance LangGraph 14-11-2026` and `(part - 2) 15-11-2026` (agents project)
+- `Agents in Langgraph 21-11-2026` (programs 1–21: streaming modes, human approval, plan-and-execute, supervisor, handoffs, orchestrator-workers, deep agent)
+- `Agentic AI Final Project 22-11-2026` (Meal Planner Kitchen Team: multi-agent supervisor + RAG with pgvector + MCP tools + short/long-term memory in Postgres + FastAPI + frontend)
 
 ## Must-Do Notebooks
 1. `getting-started-langgraph.ipynb`
@@ -39,5 +40,6 @@ Move from simple chains to **stateful agents** that can use tools and make decis
 - Add a new tool and update the graph.
 - Handle parallel writes with a reducer and pause for human approval.
 - Implement at least one classic workflow pattern (e.g. orchestrator-worker).
+- Understand a multi-agent supervisor that routes to specialists (RAG, tools via MCP, per-user store).
 
 **Next:** Advanced projects. For deeper agentic patterns see the companion [agentic-ai-learning-path](https://github.com/yash9614/agentic-ai-learning-path).
