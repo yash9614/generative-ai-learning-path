@@ -17,16 +17,18 @@ Naive RAG breaks under real data and users. Production systems add:
 - **Query improvement**: Rewrite / expand / decompose / multi-query before search
 - **Filtering**: Metadata filters (status, department, date, region)
 - **Reranking**: Cross-encoder to re-order top candidates
-- **Context quality**: Citations, deduplication, compression
+- **Context quality**: Citations, deduplication, compression, parent-child / contextual chunking
 - **Evaluation**: Hit@K + RAGAS metrics (Faithfulness, Answer Relevancy, Context Precision/Recall, Answer Correctness) or LLM-as-judge
 - **Operational hygiene**: Stable chunk IDs, SHA256 dedup, batch upserts, namespaces, monitoring
 
 **Full guide:** See [PRODUCTION-RAG-GUIDE.md](PRODUCTION-RAG-GUIDE.md) for the complete progression, patterns, and interview framing.
 
+**Handbook extract:** Clean technical overview of hybrid RRF, parent-child chunking, RAGAS, GraphRAG, and related topics is in the companion agentic path: [PYTHON-FOR-GENAI-CONCEPTS.md](https://github.com/yash9614/agentic-ai-learning-path/blob/main/reference/PYTHON-FOR-GENAI-CONCEPTS.md).
+
 ## External Resources
-- **Query transformations**: [d-hackmt/query-transformations](https://github.com/d-hackmt/query-transformations) (rewriting, step-back, multi-query + RRF, decomposition, routing, filters)
-- **RAGAS evaluation**: [divesh-sse/RAGAS](https://github.com/divesh-sse/RAGAS) (metric isolation notebook + Streamlit demo)
-- **Production toolkit**: [laxmimerit/RAGWire](https://github.com/laxmimerit/RAGWire) (multi-format → Qdrant, hybrid, LLM metadata, SHA256 dedup)
+- **Query transformations**: [d-hackmt/query-transformations](https://github.com/d-hackmt/query-transformations)
+- **RAGAS evaluation**: [divesh-sse/RAGAS](https://github.com/divesh-sse/RAGAS)
+- **Production toolkit**: [laxmimerit/RAGWire](https://github.com/laxmimerit/RAGWire)
 - **Local agentic RAG**: [laxmimerit/Agentic-RAG-with-LangGraph-and-Ollama](https://github.com/laxmimerit/Agentic-RAG-with-LangGraph-and-Ollama)
 
 Full summary also lives in the companion agentic path: `reference/EXTERNAL-RAG-RESOURCES.md`.
@@ -38,6 +40,7 @@ Full summary also lives in the companion agentic path: `reference/EXTERNAL-RAG-R
 - PDF / multimodal (tables & charts as text)
 - Query transformation + citations
 - Evaluation harness (RAGAS or simple)
+- GraphRAG (multi-hop over knowledge graphs)
 
 ## Recommended practice
 Implement a small RAG system over your own documents, then upgrade it step-by-step to production quality (query transform → hybrid → rerank → eval).
