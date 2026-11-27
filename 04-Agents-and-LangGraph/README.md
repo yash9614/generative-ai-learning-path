@@ -3,9 +3,9 @@
 Move from simple chains to **stateful agents** that can use tools and make decisions.
 
 ## Key Ideas
+
 - Tools / function calling (OpenAI function calling + LangChain `@tool`)
-- StateGraph, nodes, and edges
-- Conditional routing (`tools_condition`)
+- StateGraph, nodes, edges, conditional routing (`tools_condition`)
 - ReAct-style loops
 - Parallel nodes + reducers
 - Subgraphs (as node or invoke)
@@ -17,24 +17,28 @@ Move from simple chains to **stateful agents** that can use tools and make decis
 - Multi-agent: supervisor, handoffs, deep agents
 - Streaming modes (values, debug, checkpoint, tasks, messages)
 
-## Complementary Tutorial Resources
+## Complementary Resources
 
-- **Progressive 10-notebook series**: [sourangshupal/langraph-tutorials](https://github.com/sourangshupal/langraph-tutorials)
-- **Hands-on notebooks + diagrams**: [d-hackmt/langgraph-life](https://github.com/d-hackmt/langgraph-life)
+- Progressive notebooks: [sourangshupal/langraph-tutorials](https://github.com/sourangshupal/langraph-tutorials)
+- Hands-on + diagrams: [d-hackmt/langgraph-life](https://github.com/d-hackmt/langgraph-life)
+- Clean concept extract (hybrid RAG, LangGraph + MCP, multi-agent, GraphRAG): [PYTHON-FOR-GENAI-CONCEPTS.md](https://github.com/yash9614/agentic-ai-learning-path/blob/main/reference/PYTHON-FOR-GENAI-CONCEPTS.md)
 
 ## Telusko Course Mapping
+
 - `LangChain Tools and Agents`, `Tool Calling (Part-2)`
 - `Getting Started with LangGraph 17-10-2026`
 - `Types of Graphs` series (18-10 through Part 4)
 - `Advance LangGraph 14-11-2026` and `(part - 2) 15-11-2026` (agents project)
 - `Agents in Langgraph 21-11-2026` (programs 1–21: streaming modes, human approval, plan-and-execute, supervisor, handoffs, orchestrator-workers, deep agent)
-- `Agentic AI Final Project 22-11-2026` (Meal Planner Kitchen Team: multi-agent supervisor + RAG with pgvector + MCP tools + short/long-term memory in Postgres + FastAPI + frontend)
+- `Agentic AI Final Project 22-11-2026` (multi-agent supervisor + RAG with pgvector + MCP tools + short/long-term memory in Postgres + FastAPI + frontend)
 
 ## Must-Do Notebooks
+
 1. `getting-started-langgraph.ipynb`
 2. `langgraph-chatbot-with-tools.ipynb` ← Highest priority
 
 ## What you should be able to do
+
 - Build a graph that decides when to call a tool.
 - Stream intermediate steps.
 - Add a new tool and update the graph.
